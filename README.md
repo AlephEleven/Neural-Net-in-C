@@ -35,4 +35,4 @@ $ ./nn
 
 ## Notes
 
-* Due to arrays being statically defined, you will need to resize array buffer in order to allow for larger matrices >4096 elements
+* Due to arrays being statically defined, you will need to resize array buffer in order to allow for larger matrices >4096 elements to prevent overflow errors.
