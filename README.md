@@ -32,3 +32,7 @@ Linear algebra and neural network library writing multi-layer perceptrons in C. 
 $ gcc NeuralNet.c -lm -o nn
 $ ./nn
 ```
+
+## Notes
+
+* Due to arrays being statically defined, creating very large matrices will cause segmentation faults due to overflow issues. 
