@@ -25,3 +25,10 @@ Linear algebra and neural network library writing multi-layer perceptrons in C. 
 
 
 ![alt text](https://github.com/AlephEleven/Neural-Net-in-C/blob/main/results.PNG?raw=true)
+
+## Usage
+
+```
+$ gcc NeuralNet.c -lm -o nn
+$ ./nn
+```
