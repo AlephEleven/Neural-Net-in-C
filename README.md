@@ -35,4 +35,4 @@ $ ./nn
 
 ## Notes
 
-* Due to arrays being statically defined, creating very large matrices will cause segmentation faults due to overflow issues. 
+* Due to arrays being statically defined, you will need to resize array buffer in order to allow for larger matrices >4096 elements
